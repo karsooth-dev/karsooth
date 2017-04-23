@@ -46,6 +46,16 @@ s0.parentNode.insertBefore(s1,s0);
 </script>
 <!--End of Tawk.to Script-->
 
+<script>
+// replace "ss-submit" with the ID of your submit button
+document.getElementById("ss-submit").addEventListener("click", function(){
+  // adds a delay because the results page loads before the form has a chance to submit
+  setTimeout(function() {
+    // replace the url in quotes below to where you want to the user to be redirected to
+    window.location = "http://karsooth-dev.github.io";
+  }, 1000);
+});
+</script>
 <!--
 /*
  * Airspace
@@ -193,11 +203,38 @@ s0.parentNode.insertBefore(s1,s0);
         <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
     <select name="entry.133042857" id="entry_133042857" class="form-control selectpicker" >
       <option value="" >Please select your service</option>
-      <option value="1">Clean</option>
-      <option value="2">Clean + Protection</option>
+      <option value="1">Clean RM30</option>
+      <option value="2">Clean + Protection RM40</option>
     </select>
   </div>
 </div>
+</div>
+
+<!-- Select Basic -->
+   
+<div class="form-group"> 
+  <label class="col-md-4 control-label">Payment Method*</label>
+    <div class="col-md-4 selectContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+    <select name="entry.2097684559" id="entry_2097684559" class="form-control selectpicker" >
+      <option value="" >Please select your service</option>
+      <option value="Bank Transfer">Bank Transfer</option>
+      <option value="Cash on Collect">Cash on Collect</option>
+    </select>
+  </div>
+</div>
+</div>
+
+<!-- Text input-->
+       <div class="form-group">
+  <label class="col-md-4 control-label">Payment Reference Number</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+        <input class="form-control" type="text" name="entry.476681811" value="" class="ss-q-short" id="entry_476681811" dir="auto" aria-label="Payment Reference Number  " title="">
+    </div>
+  </div>
 </div>
 
 <!-- radio checks -->
