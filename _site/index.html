@@ -52,16 +52,6 @@ s0.parentNode.insertBefore(s1,s0);
 </script>
 <!--End of Tawk.to Script-->
 
-<script>
-// replace "ss-submit" with the ID of your submit button
-document.getElementById("ss-submit").addEventListener("click", function(){
-  // adds a delay because the results page loads before the form has a chance to submit
-  setTimeout(function() {
-    // replace the url in quotes below to where you want to the user to be redirected to
-    window.location = "http://karsooth-dev.github.io";
-  }, 1000);
-});
-</script>
 <!--
 /*
  * Airspace
@@ -104,7 +94,7 @@ document.getElementById("ss-submit").addEventListener("click", function(){
                 <li><a href="/">Home</a></li>
                 <li><a href="/work">Work</a></li>
                 <li><a href="/blog">Blog</a></li>
-                <li><a href="#">Service</a></li>
+                <li><a href="#service">Service</a></li>
                 <li><a href="/contact">Contact</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
@@ -176,27 +166,44 @@ document.getElementById("ss-submit").addEventListener("click", function(){
       </div>
     </div>
     <div class="row ">
-      <div class="col-sm-6 col-md-4">
+      <div class="col-sm-6 col-md-6">
         <div class="service-item">
           <i class="icon ion-coffee"></i>
-          <h4>Cleaning</h4>
+          <h4>Cleaning RM30</h4>
           <p>Use premium product to get rid the stain on your shoes which able on these materials such as Fabric, Leather, Suede, Rubber and Mixed</p>
         </div>
       </div>
-      <div class="col-sm-6 col-md-4">
-        <div class="service-item">
-          <i class="ion-compass"></i>
-          <h4>Protecting</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4">
+      <div class="col-sm-6 col-md-6">
         <div class="service-item">
           <i class="ion-image"></i>
-          <h4>Repainting</h4>
+          <h4>Repainting(TBA)</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
         </div>
       </div>
+    </div>
+    <div class="row">
+      <h4>Add-on List</h4>
+      <div class="col-sm-6 col-md-5 col-md-offset-1">
+        <div class="service-item">
+          <i class="ion-compass"></i>
+          <h4>Coating</h4>
+          <p>Act as invisible protector barrier againts dirt and stain. Keep the shoes looking newer and cleaner for longer</p>
+          </br><h5>RM 10</h5>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-5">
+        <div class="service-item">
+          <i class="ion-compass"></i>
+          <h4>Odour Removal</h4>
+          <p>Refreshing and protects from unwanted foot odor by using a mixture of natural elements and benificial bacteria</p>
+          </br><h5>RM 10</h5>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-md-2 col-md-offset-5">
+        <a href="/booking" class="btn btn-info" role="button">Book Now</a>
       </div>
     </div>
   </div>
